@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_main">true</bool>
+    <bool name="config_test1">true</bool>
+    <bool name="config_test2">true</bool>
+<bool name="new_popup">true</bool>
+</resources>

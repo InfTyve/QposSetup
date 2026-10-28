@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/icon">
+        <com.android.setup.compose.ui.preference.ComposeListPreference
+            android:icon="@drawable/ic_qmo"
+            android:title="@string/qqq"
+            android:key="android.theme.customization.accent_color" />
+        <com.android.setup.compose.ui.preference.ComposeListPreference
+            android:icon="@drawable/ic_sqm"
+            android:title="@string/sut"
+            android:key="android.theme.customization.font" />
+        <com.android.setup.compose.ui.preference.ComposeListPreference
+            android:title="@string/yhz"
+            android:key="android.theme.customization.adaptive_icon_shape" />
+        <com.android.setup.compose.ui.preference.ComposePreference
+            android:title="Over"
+            android:key="over_ooo"
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="TestMode"
+        android:key="test_mode">
+        <com.android.setup.compose.ui.preference.ComposePreference
+            android:fragment="com.android.setup.TestFragment"
+            android:key="test_button"
+            android:title="@string/bugjump" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

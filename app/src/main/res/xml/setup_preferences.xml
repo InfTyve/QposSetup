@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="OpenTest">
+
+        <com.android.setup.compose.ui.preference.ComposePreference
+            android:title="@string/bugjump"
+            android:key="opentest" />
+        <com.android.setup.compose.ui.preference.ComposePreference
+            android:title="SettingsTest"
+            android:key="test_mode_enabled" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

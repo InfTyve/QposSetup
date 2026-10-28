@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">引导服务</string>
+    <string name="start">开始</string>
+    <string name="setuptext">欢迎来到奇葩OS的开机引导页
+    令人难崩的奇葩OS开发者:Mig0170
+    感谢Name本人提供底包和直装教程</string>
+    <string name="start_button1">下一步</string>
+    <string name="over">激活</string>
+    <string name="start_toast">完成引导</string>
+    <string name="test">Test</string>
+    <string name="start_1_text">马上给我激活!</string>
+    <string name="over_toast">引导完成!</string>
+    <string name="ok">确定</string>
+    <string name="stop_bar">返回键已禁用:(</string>
+    <string name="warnings">警告x114514</string>
+    <string name="yhz">以后再说</string>
+    <string name="sut">方</string>
+    <string name="qqq">圆</string>
+    <string name="icon">图标形状</string>
+    <string name="bugjump">进入测试界面</string>
+    <string name="summary_setup">引导设置</string>
+</resources>

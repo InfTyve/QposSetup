@@ -1,0 +1,1 @@
+/workspace/QposSetup/app/build/intermediates/cxx/Debug/5a25496y/obj/arm64-v8a
