@@ -16,7 +16,7 @@
             android:key="android.theme.customization.adaptive_icon_shape" />
         <com.android.setup.compose.ui.preference.ComposePreference
             android:title="Over"
-            android:key="over_ooo"
+            android:key="over_ooo" />
     </PreferenceCategory>
     <PreferenceCategory
         android:title="TestMode"

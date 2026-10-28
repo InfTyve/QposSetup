@@ -35,14 +35,6 @@ public class IconPreferenceFragment extends BasePreferenceFragment implements Pr
         initView();
         bindThemeOverlays();
     }
-    Preference over = findPreference("over_ooo");
-    if (over != null) {
-            over.setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent(getActivity(), OverActivity.class);
-            startActivity(intent);
-            return true;
-        });
-    }
 
     /**
      * 给「图标形状 / 字体 / 强调色」三项填入真实的 overlay 列表。
@@ -80,6 +72,15 @@ public class IconPreferenceFragment extends BasePreferenceFragment implements Pr
         loginDjiAccount = findPreference("login_dji_account");
         if (loginDjiAccount != null) {
             loginDjiAccount.setOnPreferenceClickListener(this);
+        }
+        // 跳转 Overlay 选择页
+        Preference over = findPreference("over_ooo");
+        if (over != null) {
+            over.setOnPreferenceClickListener(preference -> {
+                Intent intent = new Intent(getActivity(), OverActivity.class);
+                startActivity(intent);
+                return true;
+            });
         }
         // 初始化时根据 SP 同步一次可见性
         applyTestModeVisibilityFromSp();
