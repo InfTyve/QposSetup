@@ -98,6 +98,11 @@
         <activity
             android:name=".StartActivity"
             android:exported="false" />
+        <!-- 语言选择页：MainActivity 的按钮进入，右下角按钮进入 StartActivity -->
+        <activity
+            android:name=".LauActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Setup" />
         <activity
             android:name=".MainActivity"
             android:enableOnBackInvokedCallback="true"

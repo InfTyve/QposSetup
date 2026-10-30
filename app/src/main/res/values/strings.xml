@@ -152,4 +152,9 @@
 
     <string name="cancel">Cancel</string>
     <string name="xxx">xxx</string>
+
+    <!-- 语言选择页 LauActivity -->
+    <string name="lau_title">Language</string>
+    <string name="lau_summary">Choose the language you want to use on this device. Scrolling stops for a moment and the change is applied immediately.</string>
+    <string name="lau_next">Next</string>
 </resources>

@@ -33,6 +33,8 @@
 # hidden-api 是 compileOnly，运行时用系统实现，不要告警/裁剪
 -dontwarn android.content.om.**
 -dontwarn android.os.SystemProperties
+# LocalePicker 走 framework.jar（compileOnly），运行时由系统提供
+-dontwarn com.android.internal.**
 
 # 保留注解信息（Refine / 序列化）
 -keepattributes *Annotation*,InnerClasses,Signature
