@@ -19,4 +19,9 @@
     <string name="icon">图标形状</string>
     <string name="bugjump">进入测试界面</string>
     <string name="summary_setup">引导设置</string>
+
+    <!-- 语言选择页 LauActivity -->
+    <string name="lau_title">语言</string>
+    <string name="lau_summary">选择此设备要使用的语言。滚轮停止滚动后会立即应用更改，并保存到系统设置。</string>
+    <string name="lau_next">下一步</string>
 </resources>

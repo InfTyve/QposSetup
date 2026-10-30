@@ -58,17 +58,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lau_summary" />
 
-    <!-- 右下角：进入下一步 StartActivity -->
-    <com.google.android.material.button.MaterialButton
+    <!-- 右下角：进入下一步 StartActivity（统一样式由 NextButton 内置） -->
+    <com.android.setup.widget.NextButton
         android:id="@+id/lau_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
-        android:minWidth="120dp"
         android:text="@string/lau_next"
-        app:icon="@drawable/ic_arrow_right"
-        app:iconGravity="textEnd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
