@@ -7,6 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+    <!-- Butter_set 开关：开启写 1，关闭写 0 -->
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switch_butter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/butter_set"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/startbutton1"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <!-- 下一步：与 LauActivity 同一个 NextButton 类 -->
     <com.android.setup.widget.NextButton
         android:id="@+id/startbutton1"

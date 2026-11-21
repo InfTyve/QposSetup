@@ -157,4 +157,10 @@
     <string name="lau_title">Language</string>
     <string name="lau_summary">Choose the language you want to use on this device. Scrolling stops for a moment and the change is applied immediately.</string>
     <string name="lau_next">Next</string>
+
+    <!-- StartActivity：Settings.Global Butter_set 开关 -->
+    <string name="butter_set">Butter_set</string>
+    <string name="butter_set_failed">Cannot write Settings.Global (WRITE_SECURE_SETTINGS denied)</string>
+
+    <string name="butter_set_desc">Writes to system Settings.Global</string>
 </resources>

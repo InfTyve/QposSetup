@@ -24,4 +24,10 @@
     <string name="lau_title">语言</string>
     <string name="lau_summary">选择此设备要使用的语言。滚轮停止滚动后会立即应用更改，并保存到系统设置。</string>
     <string name="lau_next">下一步</string>
+
+    <!-- StartActivity：Settings.Global Butter_set 开关 -->
+    <string name="butter_set">Butter_set</string>
+    <string name="butter_set_failed">写入 Settings.Global 失败（缺少 WRITE_SECURE_SETTINGS）</string>
+
+    <string name="butter_set_desc">写入系统全局设置 Settings.Global</string>
 </resources>
