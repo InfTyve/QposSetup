@@ -1,0 +1,3 @@
+/workspace/QposSetup/app/.cxx/Debug/5a25496y/armeabi-v7a/CMakeFiles/tyve.dir
+/workspace/QposSetup/app/.cxx/Debug/5a25496y/armeabi-v7a/CMakeFiles/edit_cache.dir
+/workspace/QposSetup/app/.cxx/Debug/5a25496y/armeabi-v7a/CMakeFiles/rebuild_cache.dir

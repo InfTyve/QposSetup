@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 建议卡片（绿色） -->
+    <color name="card_suggestion_bg">#E6F4EA</color>
+    <color name="card_suggestion_stroke">#81C995</color>
+    <color name="card_suggestion_title">#0E6240</color>
+    <color name="card_suggestion_summary">#1E8E5A</color>
+    <color name="card_suggestion_icon">#0E6240</color>
+
+    <!-- 重要卡片（红色） -->
+    <color name="card_important_bg">#FCE8E6</color>
+    <color name="card_important_stroke">#F29B93</color>
+    <color name="card_important_title">#8A1A13</color>
+    <color name="card_important_summary">#B42318</color>
+    <color name="card_important_icon">#B42318</color>
+
+    <!-- 固定卡片（紫色） -->
+    <color name="card_sticky_bg">#F0ECFF</color>
+    <color name="card_sticky_stroke">#C4B5FD</color>
+    <color name="card_sticky_title">#4527A0</color>
+    <color name="card_sticky_summary">#6750A4</color>
+    <color name="card_sticky_icon">#6750A4</color>
+</resources>

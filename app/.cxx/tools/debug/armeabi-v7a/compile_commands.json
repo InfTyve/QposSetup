@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspace/QposSetup/app/.cxx/Debug/5a25496y/armeabi-v7a",
+  "command": "/opt/android-sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi29 --sysroot=/opt/android-sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dtyve_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/tyve.dir/hello.cpp.o -c /workspace/QposSetup/app/src/main/cpp/hello.cpp",
+  "file": "/workspace/QposSetup/app/src/main/cpp/hello.cpp"
+}
+]
