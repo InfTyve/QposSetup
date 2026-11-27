@@ -35,7 +35,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import com.android.setup.compose.ui.theme.SetupTheme
-import com.android.setup.compose.ui.widget.SwitchRow
+import com.android.setup.compose.ui.widget.SwitchWidget
 import com.android.setup.widget.NextButton
 
 /** 开关对应的 Settings.Global 键：开启写 1，关闭写 0 */
@@ -49,7 +49,7 @@ private const val KEY_BUTTER_SET = "Butter_set"
  *  - 底部「下一步」按钮进入 [IconActivity] 并弹提示
  *  - Butter_set 开关读写 `Settings.Global`，1 为开、0 为关
  *
- * 开关放在卡片里（复用设置页的 [SwitchRow]），整张卡片可点，带水波纹与触觉反馈。
+ * 开关放在卡片里（[SwitchWidget]），整张卡片可点，带水波纹与触觉反馈。
  */
 class StartActivity : ComponentActivity() {
 
