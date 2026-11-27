@@ -1,9 +1,6 @@
 name: Android Build
 
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
     inputs:
       build_type:
@@ -16,11 +13,11 @@ on:
         default: both
 
 concurrency:
-  group: android-build-${{ github.ref }}-${{ inputs.build_type || 'both' }}
+  group: android-build-${{ github.ref }}-${{ inputs.build_type }}
   cancel-in-progress: true
 
 env:
-  BUILD_TYPE: ${{ inputs.build_type || 'both' }}
+  BUILD_TYPE: ${{ inputs.build_type }}
 
 jobs:
   build:
@@ -67,7 +64,7 @@ jobs:
       - name: Upload APKs
         uses: actions/upload-artifact@v4
         with:
-          name: QposSetup-apk-${{ inputs.build_type || 'both' }}
+          name: QposSetup-apk-${{ inputs.build_type }}
           path: |
             app/build/outputs/apk/debug/*.apk
             app/build/outputs/apk/release/*.apk
