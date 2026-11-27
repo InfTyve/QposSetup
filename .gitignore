@@ -1,0 +1,4 @@
+!test-signing.jks
+*.keystore
+*.p12
+.aicode/
